@@ -1,6 +1,6 @@
 cask "typefall" do
-  version "0.1.6"
-  sha256 "6bd04d1935181dc60fb59dba5a4b3083927260bdc26a2f011b7b959d42f75825"
+  version "0.1.7"
+  sha256 "c24a9014270c913681ba1a086e0c6f5eff3d1653b1f56a6ba2cc78b0d802797e"
 
   url "https://github.com/su-ram/typefall/releases/download/v#{version}/Typefall-#{version}.zip"
   name "Typefall"
