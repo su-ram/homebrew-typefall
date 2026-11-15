@@ -1,6 +1,6 @@
 cask "typefall" do
-  version "0.1.0"
-  sha256 "da637fb0b8e98ab731a4128ccda44b6f5e19ca7ef11f5ad6ea5bec5d6bce6085"
+  version "0.1.1"
+  sha256 "441eb5ab220cfa7a35f1ab192828f432caf940d6037dce21dacb827575d82b73"
 
   url "https://github.com/su-ram/typefall/releases/download/v#{version}/Typefall-#{version}.zip"
   name "Typefall"
@@ -32,7 +32,7 @@ cask "typefall" do
     Typefall은 타자 입력을 감지하기 위해 "입력 모니터링" 권한이 필요합니다.
       시스템 설정 → 개인정보 보호 및 보안 → 입력 모니터링 → Typefall 켜기
     키 내용은 저장하거나 전송하지 않으며, 입력 횟수만 계산합니다.
-    (선택 기능인 "크리스마스 효과"를 켜면 해당 단어의 키 순서 진행 상태만 이 기기 안에서 확인합니다.)
+    크리스마스 효과(기본 켜짐, 메뉴에서 끌 수 있음)는 해당 단어의 키 순서 진행 상태만 이 기기 안에서 확인합니다.
 
     앱은 Apple 공증을 받지 않은 빌드입니다. 설치 직후 한 번 실행하세요:
       open -a Typefall
